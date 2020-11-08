@@ -18,12 +18,12 @@ void rand_input(int k)
     FILE *fp;
     switch(k)
     {
-        case 3:fp = fopen("input/input_3","w+");break;
-        case 6:fp = fopen("input/input_6","w+");break;
-        case 9:fp = fopen("input/input_9","w+");break;
-        case 12:fp = fopen("input/input_12","w+");break;
-        case 15:fp = fopen("input/input_15","w+");break;
-        case 18:fp = fopen("input/input_18","w+");break;
+        case 3:fp = fopen("../input/input_3.txt","w+");break;
+        case 6:fp = fopen("../input/input_6.txt","w+");break;
+        case 9:fp = fopen("../input/input_9.txt","w+");break;
+        case 12:fp = fopen("../input/input_12.txt","w+");break;
+        case 15:fp = fopen("../input/input_15.txt","w+");break;
+        case 18:fp = fopen("../input/input_18.txt","w+");break;
     } 
     for(int i = 1; i <= n; i++)
     {
